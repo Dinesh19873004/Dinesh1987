@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # Specify your gem's dependencies in json_excel_convert.gemspec
-gemspec
+gemspec :path => "json_excel_convert.gemspec"
 
 gem "rake", "~> 13.0"
 
